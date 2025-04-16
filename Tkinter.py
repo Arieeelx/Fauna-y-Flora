@@ -64,4 +64,7 @@ btn_mostrar_especie.grid(row=0, column=1, padx=5, pady=5)
 btn_eliminar_especie = tk.Button(frame_botones, text="Eliminar registro", command=Funciones_crud.eliminar_especie)
 btn_eliminar_especie.grid(row=2, column=1, padx=5, pady=5)
 
+btn_actualizar_especie = tk.Button(frame_botones, text="Actualizar especie", command=Funciones_crud.actualizar_informacion)
+btn_actualizar_especie.grid(row=2, column=0, padx=5, pady=5)
+
 ventana.mainloop()
